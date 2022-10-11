@@ -1,0 +1,52 @@
+body {
+  background-color: blue;
+}
+
+#blaagaard {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  max-width: 5rem;
+}
+
+.nav-knapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo {
+  width: 100px;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  gap: 1rem;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+  font-family: "Passion One", cursive;
+}
+
+h1 {
+}
+
+p {
+}
