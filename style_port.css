@@ -46,7 +46,7 @@ footer li {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
-  ul {
+  footer ul {
     display: flex;
     flex-direction: column;
   }
