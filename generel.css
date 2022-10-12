@@ -44,7 +44,7 @@ nav ul {
 a {
   color: white;
   text-decoration: none;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 1rem;
   text-align: center;
@@ -88,7 +88,7 @@ footer li {
 }
 
 footer h3 {
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 800;
   font-size: 1.4rem;
   margin: 20px;
@@ -97,14 +97,14 @@ footer h3 {
 footer h4 {
   color: white;
   text-decoration: none;
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 1rem;
   margin: 20px;
 }
 
 footer p {
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 0.93rem;
   margin: 20px;
