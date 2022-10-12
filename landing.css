@@ -27,7 +27,7 @@
 }
 
 .col {
-  margin: 20px 0;
+  margin: 20px;
 }
 
 @media (min-width: 600px) {
