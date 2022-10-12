@@ -26,6 +26,7 @@
   .flex-col {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
   .flex-col :last-child {
     margin-top: auto;
