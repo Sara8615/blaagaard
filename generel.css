@@ -59,7 +59,6 @@ li {
   /*border-bottom: 1px solid white;*/
   text-shadow: 0 0 10px rgb(249, 4, 163);
   font-weight: bold;
-  font-family: "Passion One", cursive;
 }
 
 p {
@@ -131,5 +130,9 @@ footer p {
 
   .logo {
     max-width: 10rem;
+  }
+  header a {
+    font-size: 1.3rem;
+    margin-right: 20px;
   }
 }
