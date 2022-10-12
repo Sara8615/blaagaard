@@ -40,7 +40,8 @@ a {
 li {
   list-style: none;
   gap: 1rem;
-  border-bottom: 1px solid white;
+  /*border-bottom: 1px solid white;*/
+  text-shadow: 0 0 10px rgb(249, 4, 163);
   font-weight: bold;
   font-family: "Passion One", cursive;
 }
@@ -51,7 +52,14 @@ h1 {
 p {
 }
 
-.h1budskab {
+.BOOK {
   text-align: center;
+  color: white;
+  text-shadow: 0 0 10px rgb(249, 4, 163);
+  margin-top: 25px;
+}
+
+.BOOK a {
+  font-size: 1.5rem;
   color: white;
 }
