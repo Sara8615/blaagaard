@@ -1,5 +1,19 @@
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: blue;
+}
+
+header {
+  box-shadow: 2px 3px 10px white;
+  margin-bottom: 70px;
 }
 
 #blaagaard {
@@ -24,12 +38,14 @@ img {
   width: 100px;
   text-decoration: none;
   border-bottom: none;
+  margin: 20px;
 }
 
 nav ul {
   display: flex;
   gap: 20px;
   padding: 0;
+  margin: 20px;
 }
 
 a {
@@ -47,7 +63,6 @@ a:hover {
 li {
   list-style: none;
   gap: 1rem;
-  border-bottom: 1px solid white;
   font-weight: bold;
   font-family: "Inter", sans-serif;
 }
@@ -58,5 +73,61 @@ h1 {
 p {
 }
 
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.93;
+}
+
 footer {
+  box-shadow: -2px -3px 10px white;
+  margin-top: 70px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: center;
+  text-shadow: none;
+}
+footer li {
+  list-style: none;
+  border-bottom: none;
+}
+
+footer h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  color: white;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+footer p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.93;
+}
+
+@media (min-width: 600px) {
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+  }
 }

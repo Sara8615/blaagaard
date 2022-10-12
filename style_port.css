@@ -15,23 +15,20 @@ p {
   font-weight: 600;
   font-size: 0.93;
 }
-footer a {
-  color: white;
-  text-decoration: none;
-  font-family: "Inter", sans-serif;
-  font-weight: 900;
-  font-size: 1rem;
-  text-align: center;
+
+main {
 }
-footer li {
-  list-style: none;
-  border-bottom: none;
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 @media (min-width: 600px) {
-  .footer-content {
+  .grid-gruppe {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
   }
 
@@ -46,8 +43,10 @@ footer li {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
-  footer ul {
-    display: flex;
-    flex-direction: column;
+
+  .grid-vid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
   }
 }
