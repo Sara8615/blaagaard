@@ -116,7 +116,8 @@ footer h4 {
 footer p {
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 0.93;
+  font-size: 0.93rem;
+  margin: 20px;
 }
 
 @media (min-width: 600px) {
@@ -129,5 +130,9 @@ footer p {
   footer ul {
     display: flex;
     flex-direction: column;
+  }
+
+  a {
+    font-size: 1.2rem;
   }
 }

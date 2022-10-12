@@ -63,3 +63,20 @@ p {
   font-size: 1.5rem;
   color: white;
 }
+
+#screen {
+  margin: 20px;
+}
+
+@media (min-width: 600px) {
+  li {
+  }
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-col :last-child {
+    margin-top: auto;
+    justify-content: space-between;
+  }
+}
