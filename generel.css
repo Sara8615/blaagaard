@@ -7,25 +7,8 @@
   margin: 0;
 }
 
-body {
-  background-color: blue;
-}
-
-header {
-  box-shadow: 2px 3px 10px white;
-  margin-bottom: 70px;
-}
-
-#blaagaard {
-  width: 100%;
-}
-
 img {
   max-width: 100%;
-}
-
-.logo {
-  max-width: 5rem;
 }
 
 .nav-knapper {
@@ -38,7 +21,17 @@ img {
   width: 100px;
   text-decoration: none;
   border-bottom: none;
+  max-width: 5rem;
   margin: 20px;
+}
+
+body {
+  background-color: blue;
+}
+
+header {
+  box-shadow: 2px 3px 10px white;
+  margin-bottom: 70px;
 }
 
 nav ul {
@@ -62,21 +55,17 @@ a:hover {
 
 li {
   list-style: none;
-  gap: 1rem;
+  gap: 20px;
+  /*border-bottom: 1px solid white;*/
+  text-shadow: 0 0 10px rgb(249, 4, 163);
   font-weight: bold;
-  font-family: "Inter", sans-serif;
-}
-
-h1 {
-}
-
-p {
+  font-family: "Passion One", cursive;
 }
 
 p {
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 0.93;
+  font-size: 0.93rem;
 }
 
 footer {
@@ -102,7 +91,7 @@ footer h3 {
   font-family: "Inter", sans-serif;
   font-weight: 800;
   font-size: 1.4rem;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 footer h4 {
@@ -111,6 +100,7 @@ footer h4 {
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 1rem;
+  margin: 20px;
 }
 
 footer p {
@@ -121,18 +111,21 @@ footer p {
 }
 
 @media (min-width: 600px) {
-  .footer-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-  }
-
-  footer ul {
+  footer {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
   }
 
+  .grid-gruppe {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
   a {
     font-size: 1.2rem;
+  }
+  footer h3 {
+    justify-content: left;
   }
 }
