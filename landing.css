@@ -19,6 +19,10 @@
 }
 
 @media (min-width: 600px) {
+  .f-landing {
+    justify-content: space-evenly;
+  }
+
   .flex-col {
     display: flex;
     flex-direction: column;

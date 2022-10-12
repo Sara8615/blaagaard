@@ -128,4 +128,8 @@ footer p {
   footer h3 {
     justify-content: left;
   }
+
+  .logo {
+    max-width: 10rem;
+  }
 }

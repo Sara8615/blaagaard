@@ -25,6 +25,11 @@ main {
 
 img {
   margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.play {
+  width: 4rem;
 }
 
 @media (min-width: 600px) {
@@ -41,6 +46,11 @@ img {
     margin-bottom: 20px;
   }
   .grid-some-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .grid-some-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
