@@ -1,0 +1,45 @@
+@media (min-width: 600px) {
+  #videoKort {
+    width: 720px;
+    height: 720px;
+  }
+
+  #videoLang {
+    width: 1280px;
+    height: 720px;
+  }
+}
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.col_vid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#videoKort {
+  align-self: center;
+  width: 315px;
+  height: 315px;
+  margin: 20px;
+}
+
+#videoLang {
+  align-self: center;
+  width: 560px;
+  height: 315px;
+}
+
+h2 {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 20px 0;
+}
